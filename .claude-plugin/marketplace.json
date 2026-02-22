@@ -1,0 +1,22 @@
+{
+  "name": "sean10_marketplace",
+  "owner": {
+    "name": "Sean10",
+    "email": "sean10reborn@gmail.com"
+  },
+  "description": "A marketplace for sample marketplace assistant plugins",
+  "plugins": [
+    {
+      "name": "pr-review-assistant",
+      "source": "./plugins/pr-review-assistant",
+      "description": "多专家并行 PR 评审，支持代码质量、安全、性能、架构审查",
+      "version": "1.0.0",
+      "author": {
+        "name": "Sean10",
+        "email": "sean10reborn@gmail.com"
+      },
+      "keywords": ["pr", "code-review", "github", "security", "performance"],
+      "category": "development"
+    }
+  ]
+}

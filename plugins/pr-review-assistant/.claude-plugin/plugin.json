@@ -1,0 +1,18 @@
+{
+  "name": "pr-review-assistant",
+  "version": "1.0.0",
+  "description": "多专家并行 PR 评审：代码质量、安全、性能、架构",
+  "author": {
+    "name": "Sean10",
+    "email": "sean10reborn@gmail.com",
+    "url": "https://github.com/Sean10"
+  },
+  "homepage": "https://github.com/Sean10/sean10_marketplace",
+  "repository": "https://github.com/Sean10/sean10_marketplace",
+  "license": "MIT",
+  "keywords": ["pr", "code-review", "github", "security", "performance", "architecture"],
+  "commands": ["./commands/"],
+  "agents": ["./agents/"],
+  "skills": ["./skills/"],
+  "hooks": "./hooks/hooks.json"
+}

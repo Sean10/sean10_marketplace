@@ -1,0 +1,26 @@
+{
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "matcher": "review-pr",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo 'Starting PR review...'"
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo 'Review session ended. Use /review-pr <url> to start a new review.'"
+          }
+        ]
+      }
+    ]
+  }
+}
