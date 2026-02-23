@@ -17,6 +17,18 @@
       },
       "keywords": ["pr", "code-review", "github", "security", "performance"],
       "category": "development"
+    },
+    {
+      "name": "marketplace-assistant",
+      "source": "./plugins/marketplace-assistant",
+      "description": "Sample marketplace assistant with skills, agents, and MCP servers",
+      "version": "1.0.0",
+      "author": {
+        "name": "Sean10",
+        "email": "sean10reborn@gmail.com"
+      },
+      "keywords": ["marketplace", "e-commerce", "assistant"],
+      "category": "productivity"
     }
   ]
 }
