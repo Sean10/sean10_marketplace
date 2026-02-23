@@ -13,6 +13,5 @@
   "keywords": ["marketplace", "e-commerce", "assistant"],
   "commands": "./commands/",
   "skills": "./skills/",
-  "hooks": "./hooks/hooks.json",
   "mcpServers": "./mcp-servers/config.json"
 }
