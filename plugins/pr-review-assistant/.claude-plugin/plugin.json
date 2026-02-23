@@ -12,7 +12,6 @@
   "license": "MIT",
   "keywords": ["pr", "code-review", "github", "security", "performance", "architecture"],
   "commands": "./commands/",
-  "agents": "./agents/",
   "skills": "./skills/",
   "hooks": "./hooks/hooks.json"
 }

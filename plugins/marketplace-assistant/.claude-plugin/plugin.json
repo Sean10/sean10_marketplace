@@ -12,7 +12,6 @@
   "license": "MIT",
   "keywords": ["marketplace", "e-commerce", "assistant"],
   "commands": "./commands/",
-  "agents": "./agents/",
   "skills": "./skills/",
   "hooks": "./hooks/hooks.json",
   "mcpServers": "./mcp-servers/config.json"
