@@ -1,0 +1,19 @@
+{
+  "name": "marketplace-assistant",
+  "version": "1.0.0",
+  "description": "Sample marketplace assistant with skills, agents, and MCP servers",
+  "author": {
+    "name": "Your Name",
+    "email": "you@example.com",
+    "url": "https://github.com/Sean10"
+  },
+  "homepage": "https://github.com/Sean10/sean10_marketplace",
+  "repository": "https://github.com/Sean10/sean10_marketplace",
+  "license": "MIT",
+  "keywords": ["marketplace", "e-commerce", "assistant"],
+  "commands": "./commands/",
+  "agents": "./agents/",
+  "skills": "./skills/",
+  "hooks": "./hooks/hooks.json",
+  "mcpServers": "./mcp-servers/config.json"
+}

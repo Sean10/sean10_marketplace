@@ -11,8 +11,8 @@
   "repository": "https://github.com/Sean10/sean10_marketplace",
   "license": "MIT",
   "keywords": ["pr", "code-review", "github", "security", "performance", "architecture"],
-  "commands": ["./commands/"],
-  "agents": ["./agents/"],
-  "skills": ["./skills/"],
+  "commands": "./commands/",
+  "agents": "./agents/",
+  "skills": "./skills/",
   "hooks": "./hooks/hooks.json"
 }
