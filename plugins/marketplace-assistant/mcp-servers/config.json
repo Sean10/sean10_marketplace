@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "marketplace-memory": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-memory"],
+      "env": {
+        "MEMORY_FILE_PATH": "${CLAUDE_PLUGIN_ROOT}/data/marketplace-memory.json"
+      },
+      "description": "Persistent memory for marketplace context"
+    },
+    "marketplace-filesystem": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", "${CLAUDE_PLUGIN_ROOT}/templates"],
+      "description": "Access to marketplace code templates"
+    }
+  }
+}
